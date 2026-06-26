@@ -36,7 +36,3 @@ logs/
 *.ckpt
 *.safetensors
 *.onnx
-
-# 视频 / gif / 照片
-photos/
-hdf5_datasets/
