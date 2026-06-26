@@ -7,15 +7,15 @@ smolvla_output_success_half/
 datasets_random/
 datasets/
 # datasets / generated data
-*.hdf5
-*.h5
-datasets/**/*.hdf5
+
+
+
 datasets/**/*.h5
 outputs*/
 smolvla_output*/
 
 # local datasets / generated data
-*.hdf5
+
 *.h5
 datasets/
 datasets_random/
@@ -24,8 +24,8 @@ smolvla_output*/
 
 datasets/
 datasets_random/
-*.hdf5
-*.h5
+
+
 outputs*/
 smolvla_output*/
 smolvla_output_*/
@@ -36,3 +36,7 @@ logs/
 *.ckpt
 *.safetensors
 *.onnx
+
+# 视频 / gif / 照片
+photos/
+hdf5_datasets/
